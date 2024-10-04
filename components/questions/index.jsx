@@ -5,12 +5,21 @@ export default function Questions({data}) {
   const [currentQuestion, setCurrentQuestion] = useState(1);
   const [sayac, setSayac] = useState(0);
 
+  const currentQuestionData = data.slice(currentQuestion - 1, currentQuestion)[0];
+
   console.log(data.slice(currentQuestion-1, currentQuestion));
 
   return (
-    <>
-      <h2>{data.slice(currentQuestion-1, currentQuestion)[0].question}</h2>
-      <button onClick={() => setCurrentQuestion(currentQuestion + 1)}>Sonraki soru</button>
-    </>
+    <div className="quizPage">
+      <div className='quizPageQuestions'>
+        <h1>{currentQuestionData.question}</h1>
+      </div>
+      <div className="quizPageBtns">
+        {currentQuestionData.options.map((option, index) => (
+          <button key={index}>{option}</button>
+        ))}
+        <button className="submitBtn" onClick={() => setCurrentQuestion(currentQuestion + 1)}>Sonraki soru</button>
+    </div>
+    </div>
   )
 }

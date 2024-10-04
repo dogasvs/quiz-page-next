@@ -11,7 +11,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  background: var(--Light-Grey, #F4F6FA);
+  /* background: var(--Light-Grey, #F4F6FA); */
   padding-inline: 140px;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
@@ -43,13 +43,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
-#root,
-#__next {
+html {
   isolation: isolate;
-  background-image: url(/img/dekor.svg);
+  background-image: url(/dekor.svg);
   background-repeat: no-repeat;
-  position: absolute;
-  left: 0px;
 }
 
 .container {
@@ -222,5 +219,53 @@ body.dark {
     font-weight: 400;
     line-height: 30px;
     color: #626C7F;
+  }
+}
+
+.quizPage {
+  display: flex;
+  gap: 130px;
+  justify-content: space-evenly;
+
+  h1 {
+    font-size: 36px;
+    color: rgb(49, 62, 81);
+    line-height: 43.2px;
+    font-weight: 500;
+  }
+}
+
+.quizPageBtns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+
+  button:not(.submitBtn) {
+    width: 564px;
+    padding: 20px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: transparent;
+    border-radius: 24px;
+    box-shadow: 0px 16px 40px 0px #8FA0C124;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #313E51;
+    cursor: pointer;
+  }
+
+  .submitBtn {
+    width: 564px;
+    background-color: #A729F5;
+    padding: 32px;
+    box-shadow: 0px 16px 40px 0px #8FA0C124;
+    border: transparent;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    cursor: pointer;
   }
 }
