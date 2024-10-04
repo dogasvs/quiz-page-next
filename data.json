@@ -1,0 +1,272 @@
+{
+    "categories": {
+      "html": [
+        {
+          "question": "HTML neyin kısaltmasıdır?",
+          "options": ["A) Hyperlinks and Text Markup Language", "B) Home Tool Markup Language", "C) Hyper Text Markup Language", "D) Hyper Text Makeup Language"],
+          "correctAnswer": "C) Hyper Text Markup Language"
+        },
+        {
+          "question": "HTML'de en büyük başlık etiketi hangisidir?",
+          "options": ["A) <h6>", "B) <h1>", "C) <h2>", "D) <h3>"],
+          "correctAnswer": "B) <h1>"
+        },
+        {
+          "question": "<a> etiketi hangi amaçla kullanılır?",
+          "options": ["A) Liste oluşturmak", "B) Bağlantı oluşturmak", "C) Paragraf oluşturmak", "D) Görsel eklemek"],
+          "correctAnswer": "B) Bağlantı oluşturmak"
+        },
+        {
+          "question": "HTML dokümanında stil tanımlamak için hangi etiket kullanılır?",
+          "options": ["A) <css>", "B) <script>", "C) <style>", "D) <link>"],
+          "correctAnswer": "C) <style>"
+        },
+        {
+          "question": "Bir HTML sayfasında hangi etiket metni kalın yapar?",
+          "options": ["A) <i>", "B) <u>", "C) <b>", "D) <strong>"],
+          "correctAnswer": "C) <b>"
+        },
+        {
+          "question": "HTML'de sayfa başlığı hangi etikette bulunur?",
+          "options": ["A) <title>", "B) <head>", "C) <meta>", "D) <body>"],
+          "correctAnswer": "A) <title>"
+        },
+        {
+          "question": "<img> etiketi ile ilgili aşağıdakilerden hangisi doğrudur?",
+          "options": ["A) Görsel eklemek için kullanılır", "B) Bağlantı oluşturmak için kullanılır", "C) Tablo oluşturmak için kullanılır", "D) Liste oluşturmak için kullanılır"],
+          "correctAnswer": "A) Görsel eklemek için kullanılır"
+        },
+        {
+          "question": "Bir HTML dokümanında listelenen maddeler için hangi etiket kullanılır?",
+          "options": ["A) <ul>", "B) <ol>", "C) <li>", "D) <dl>"],
+          "correctAnswer": "C) <li>"
+        },
+        {
+          "question": "<br> etiketi ne işe yarar?",
+          "options": ["A) Satır sonu ekler", "B) Paragraf oluşturur", "C) Metni kalın yapar", "D) Bağlantı oluşturur"],
+          "correctAnswer": "A) Satır sonu ekler"
+        },
+        {
+          "question": "HTML'de tablo başlığı hangi etiketle belirlenir?",
+          "options": ["A) <thead>", "B) <th>", "C) <tr>", "D) <td>"],
+          "correctAnswer": "B) <th>"
+        } ],
+      "css": [
+        {
+          "question": "CSS neyin kısaltmasıdır?",
+          "options": ["A) Colorful Style Sheets", "B) Creative Style Sheets", "C) Cascading Style Sheets", "D) Computer Style Sheets"],
+          "correctAnswer": "C) Cascading Style Sheets"
+        },
+        {
+          "question": "CSS'de hangi özellik bir öğenin arka plan rengini ayarlamak için kullanılır?",
+          "options": ["A) color", "B) bgcolor", "C) background-color", "D) background-image"],
+          "correctAnswer": "C) background-color"
+        },
+        {
+          "question": "CSS'de hangi özellik metin rengini ayarlamak için kullanılır?",
+          "options": ["A) font-color", "B) text-color", "C) color", "D) font-style"],
+          "correctAnswer": "C) color"
+        },
+        {
+          "question": "CSS'de bir öğenin içeriği ile kenarları arasındaki boşluğu ayarlamak için hangi özellik kullanılır?",
+          "options": ["A) margin", "B) padding", "C) border", "D) spacing"],
+          "correctAnswer": "B) padding"
+        },
+        {
+          "question": "CSS'de bir öğenin kenarlarının kalınlığını ayarlamak için hangi özellik kullanılır?",
+          "options": ["A) padding", "B) margin", "C) border-width", "D) border-style"],
+          "correctAnswer": "C) border-width"
+        },
+        {
+          "question": "CSS'de bir öğenin yatay hizalamasını ayarlamak için hangi özellik kullanılır?",
+          "options": ["A) align", "B) horizontal-align", "C) text-align", "D) align-items"],
+          "correctAnswer": "C) text-align"
+        },
+        {
+          "question": "CSS'de 'id' seçici hangi sembol ile tanımlanır?",
+          "options": ["A) . (nokta)", "B) # (diyez)", "C) * (yıldız)", "D) @ (at)"],
+          "correctAnswer": "B) # (diyez)"
+        },
+        {
+          "question": "CSS'de yazı tipini değiştirmek için hangi özellik kullanılır?",
+          "options": ["A) font-family", "B) font-style", "C) font-weight", "D) font-size"],
+          "correctAnswer": "A) font-family"
+        },
+        {
+          "question": "CSS'de 'class' seçici hangi sembol ile tanımlanır?",
+          "options": ["A) . (nokta)", "B) # (diyez)", "C) * (yıldız)", "D) @ (at)"],
+          "correctAnswer": "A) . (nokta)"
+        },
+        {
+          "question": "CSS'de bir öğenin şeffaflığını ayarlamak için hangi özellik kullanılır?",
+          "options": ["A) opacity", "B) transparency", "C) visibility", "D) display"],
+          "correctAnswer": "A) opacity"
+        }
+        ],
+      "javascript": [
+        {
+          "question": "JavaScript hangi amaçla kullanılır?",
+          "options": [
+            "Web sayfalarına etkileşim eklemek",
+            "Veritabanı yönetimi",
+            "Sunucu yönetimi",
+            "HTML yapılandırması"
+          ],
+          "correctAnswer": "Web sayfalarına etkileşim eklemek"
+        },
+        {
+          "question": "JavaScript'te bir değişken nasıl tanımlanır?",
+          "options": ["var", "let", "const", "Tümü"],
+          "correctAnswer": "Tümü"
+        },
+        {
+          "question": "JavaScript'te hangi sembol eşitlik karşılaştırması yapar?",
+          "options": ["==", "=", "===", "!="],
+          "correctAnswer": "==="
+        },
+        {
+          "question": "JavaScript'te hangi döngü yapısı yoktur?",
+          "options": ["for", "while", "foreach", "until"],
+          "correctAnswer": "until"
+        },
+        {
+          "question": "JavaScript'te bir fonksiyon nasıl tanımlanır?",
+          "options": ["function", "func", "def", "method"],
+          "correctAnswer": "function"
+        },
+        {
+          "question":
+            "JavaScript'te bir dizinin (array) ilk elemanına nasıl erişilir?",
+          "options": ["array[0]", "array[1]", "array.first()", "array.begin()"],
+          "correctAnswer": "array[0]"
+        },
+        {
+          "question": "JavaScript'te `null` nedir?",
+          "options": [
+            "Boş bir değeri temsil eder",
+            "Tanımsız bir değeri temsil eder",
+            "Bir hata mesajıdır",
+            "Bir veri tipi değildir"
+          ],
+          "correctAnswer": "Boş bir değeri temsil eder"
+        },
+        {
+          "question": "JavaScript'te bir koşul nasıl kontrol edilir?",
+          "options": ["if", "while", "for", "switch"],
+          "correctAnswer": "if"
+        },
+        {
+          "question":
+            "JavaScript'te hangi fonksiyon, bir metni büyük harfe dönüştürür?",
+          "options": ["toUpperCase()", "toUpper()", "uppercase()", "toCaps()"],
+          "correctAnswer": "toUpperCase()"
+        },
+        {
+          "question": "JavaScript'te DOM manipülasyonu ne için kullanılır?",
+          "options": [
+            "Web sayfasındaki HTML elemanlarını değiştirmek için",
+            "Veritabanı sorguları oluşturmak için",
+            "Sunucuya veri göndermek için",
+            "CSS stillerini değiştirmek için"
+          ],
+          "correctAnswer": "Web sayfasındaki HTML elemanlarını değiştirmek için"
+        }
+      ],
+      "erisebilirlik": [
+        {
+          "question": "Erişilebilirlik ne anlama gelir?",
+          "options": [
+            "Herkesin bir web sitesini kullanabilmesi",
+            "Yalnızca görme engellilerin kullanabilmesi",
+            "Mobil cihazlarla uyumlu olması",
+            "İnternet bağlantısı gerektirmemesi"
+          ],
+          "correctAnswer": "Herkesin bir web sitesini kullanabilmesi"
+        },
+        {
+          "question": "Alt metin (alt text) neden önemlidir?",
+          "options": [
+            "Görsellerin yüklenmesini hızlandırır",
+            "Arama motoru optimizasyonunu iyileştirir",
+            "Ekran okuyucuların görselleri açıklamasını sağlar",
+            "Sayfa yükleme süresini azaltır"
+          ],
+          "correctAnswer": "Ekran okuyucuların görselleri açıklamasını sağlar"
+        },
+        {
+          "question":
+            "Form etiketlerinde erişilebilirlik için hangi öznitelik kullanılmalıdır?",
+          "options": ["alt", "for", "name", "id"],
+          "correctAnswer": "for"
+        },
+        {
+          "question": "Başlıklar (headings) neden önemlidir?",
+          "options": [
+            "Sayfa yapısını belirler",
+            "Metin boyutunu ayarlar",
+            "Sayfa yükleme süresini artırır",
+            "Görselleri tanımlar"
+          ],
+          "correctAnswer": "Sayfa yapısını belirler"
+        },
+        {
+          "question":
+            "Web içeriklerinin erişilebilirliği için hangi kısaltma kullanılır?",
+          "options": ["WCAG", "W3C", "HTML", "CSS"],
+          "correctAnswer": "WCAG"
+        },
+        {
+          "question": "Klavyeyle gezinme ne anlama gelir?",
+          "options": [
+            "Sadece klavye ile web sayfasında dolaşabilme",
+            "Fare kullanarak web sayfasında gezinme",
+            "Mobil cihazlarla uyumlu olma",
+            "Sayfa yükleme süresini iyileştirme"
+          ],
+          "correctAnswer": "Sadece klavye ile web sayfasında dolaşabilme"
+        },
+        {
+          "question": "Bir web sayfasında renk kontrastı neden önemlidir?",
+          "options": [
+            "Metinlerin okunabilirliğini artırır",
+            "Sayfa yükleme hızını artırır",
+            "Mobil uyumluluğu iyileştirir",
+            "SEO'yu optimize eder"
+          ],
+          "correctAnswer": "Metinlerin okunabilirliğini artırır"
+        },
+        {
+          "question":
+            "Bir web sayfasının 'skip to content' bağlantısı ne için kullanılır?",
+          "options": [
+            "Ana içeriğe hızlıca erişim sağlar",
+            "Sayfayı yeniler",
+            "Tarayıcı penceresini kapatır",
+            "İçeriği kaydeder"
+          ],
+          "correctAnswer": "Ana içeriğe hızlıca erişim sağlar"
+        },
+        {
+          "question": "Ekran okuyucular için en iyi uygulama nedir?",
+          "options": [
+            "Anlamlı alt metinler kullanmak",
+            "Yüksek çözünürlüklü görseller eklemek",
+            "Animasyonları artırmak",
+            "Düşük kontrastlı renkler kullanmak"
+          ],
+          "correctAnswer": "Anlamlı alt metinler kullanmak"
+        },
+        {
+          "question": "Formlar neden etiketlerle birlikte kullanılmalıdır?",
+          "options": [
+            "Erişilebilirlik sağlar",
+            "Sayfa hızını artırır",
+            "Görselleri optimize eder",
+            "Mobil cihaz uyumluluğunu artırır"
+          ],
+          "correctAnswer": "Erişilebilirlik sağlar"
+        }
+      ]
+    }
+  }
+
