@@ -105,166 +105,106 @@
         ],
       "javascript": [
         {
-          "question": "JavaScript hangi amaçla kullanılır?",
-          "options": [
-            "Web sayfalarına etkileşim eklemek",
-            "Veritabanı yönetimi",
-            "Sunucu yönetimi",
-            "HTML yapılandırması"
-          ],
-          "correctAnswer": "Web sayfalarına etkileşim eklemek"
+          "question": "JavaScript nedir?",
+          "options": ["A) Bir programlama dili", "B) Bir stil sayfası dili", "C) Bir veri tabanı", "D) Bir işletim sistemi"],
+          "correctAnswer": "A) Bir programlama dili"
         },
         {
-          "question": "JavaScript'te bir değişken nasıl tanımlanır?",
-          "options": ["var", "let", "const", "Tümü"],
-          "correctAnswer": "Tümü"
+          "question": "JavaScript'te hangi anahtar kelime değişken tanımlamak için kullanılır?",
+          "options": ["A) var", "B) let", "C) const", "D) Hepsi"],
+          "correctAnswer": "D) Hepsi"
         },
         {
-          "question": "JavaScript'te hangi sembol eşitlik karşılaştırması yapar?",
-          "options": ["==", "=", "===", "!="],
-          "correctAnswer": "==="
+          "question": "JavaScript'te hangi sembol 'strict equality' anlamına gelir?",
+          "options": ["A) =", "B) ==", "C) ===", "D) !=="],
+          "correctAnswer": "C) ==="
         },
         {
-          "question": "JavaScript'te hangi döngü yapısı yoktur?",
-          "options": ["for", "while", "foreach", "until"],
-          "correctAnswer": "until"
+          "question": "JavaScript'te bir dizinin uzunluğunu öğrenmek için hangi özellik kullanılır?",
+          "options": ["A) length", "B) size", "C) count", "D) index"],
+          "correctAnswer": "A) length"
         },
         {
           "question": "JavaScript'te bir fonksiyon nasıl tanımlanır?",
-          "options": ["function", "func", "def", "method"],
-          "correctAnswer": "function"
+          "options": ["A) function myFunction()", "B) var myFunction = function()", "C) const myFunction = () => {}", "D) Hepsi"],
+          "correctAnswer": "D) Hepsi"
         },
         {
-          "question":
-            "JavaScript'te bir dizinin (array) ilk elemanına nasıl erişilir?",
-          "options": ["array[0]", "array[1]", "array.first()", "array.begin()"],
-          "correctAnswer": "array[0]"
+          "question": "JavaScript'te hangi metot bir dizinin sonuna eleman ekler?",
+          "options": ["A) push", "B) pop", "C) shift", "D) unshift"],
+          "correctAnswer": "A) push"
         },
         {
-          "question": "JavaScript'te `null` nedir?",
-          "options": [
-            "Boş bir değeri temsil eder",
-            "Tanımsız bir değeri temsil eder",
-            "Bir hata mesajıdır",
-            "Bir veri tipi değildir"
-          ],
-          "correctAnswer": "Boş bir değeri temsil eder"
+          "question": "JavaScript'te bir 'for' döngüsü nasıl başlatılır?",
+          "options": ["A) for (let i = 0; i < 5; i++)", "B) for (i <= 5; i++)", "C) for i = 1 to 5", "D) for (let i = 0; i <= 5)"],
+          "correctAnswer": "A) for (let i = 0; i < 5; i++)"
         },
         {
-          "question": "JavaScript'te bir koşul nasıl kontrol edilir?",
-          "options": ["if", "while", "for", "switch"],
-          "correctAnswer": "if"
+          "question": "JavaScript'te 'undefined' neyi ifade eder?",
+          "options": ["A) Tanımlanmamış bir değişken", "B) Tanımsız bir değer", "C) Yanlış bir değer", "D) Null değer"],
+          "correctAnswer": "A) Tanımlanmamış bir değişken"
         },
         {
-          "question":
-            "JavaScript'te hangi fonksiyon, bir metni büyük harfe dönüştürür?",
-          "options": ["toUpperCase()", "toUpper()", "uppercase()", "toCaps()"],
-          "correctAnswer": "toUpperCase()"
+          "question": "JavaScript'te 'this' anahtar kelimesi neyi ifade eder?",
+          "options": ["A) Global nesneyi", "B) Mevcut fonksiyonu", "C) Mevcut nesneyi", "D) Hiçbiri"],
+          "correctAnswer": "C) Mevcut nesneyi"
         },
         {
-          "question": "JavaScript'te DOM manipülasyonu ne için kullanılır?",
-          "options": [
-            "Web sayfasındaki HTML elemanlarını değiştirmek için",
-            "Veritabanı sorguları oluşturmak için",
-            "Sunucuya veri göndermek için",
-            "CSS stillerini değiştirmek için"
-          ],
-          "correctAnswer": "Web sayfasındaki HTML elemanlarını değiştirmek için"
+          "question": "JavaScript'te 'NaN' ne anlama gelir?",
+          "options": ["A) Not a Number", "B) Not a Name", "C) Not an Array", "D) Not Applicable"],
+          "correctAnswer": "A) Not a Number"
         }
       ],
       "erisebilirlik": [
         {
-          "question": "Erişilebilirlik ne anlama gelir?",
-          "options": [
-            "Herkesin bir web sitesini kullanabilmesi",
-            "Yalnızca görme engellilerin kullanabilmesi",
-            "Mobil cihazlarla uyumlu olması",
-            "İnternet bağlantısı gerektirmemesi"
-          ],
-          "correctAnswer": "Herkesin bir web sitesini kullanabilmesi"
+          "question": "Erişilebilirlik (Accessibility) ne anlama gelir?",
+          "options": ["A) İnternet sitelerinin sadece masaüstü cihazlarda çalışması", "B) Web içeriklerine herkesin erişebilmesini sağlamak", "C) Web sitelerinin sadece görsel açıdan çekici olması", "D) Web sitelerinin hızlı yüklenmesi"],
+          "correctAnswer": "B) Web içeriklerine herkesin erişebilmesini sağlamak"
         },
         {
-          "question": "Alt metin (alt text) neden önemlidir?",
-          "options": [
-            "Görsellerin yüklenmesini hızlandırır",
-            "Arama motoru optimizasyonunu iyileştirir",
-            "Ekran okuyucuların görselleri açıklamasını sağlar",
-            "Sayfa yükleme süresini azaltır"
-          ],
-          "correctAnswer": "Ekran okuyucuların görselleri açıklamasını sağlar"
+          "question": "Erişilebilirlik için en önemli unsur hangisidir?",
+          "options": ["A) Renk uyumu", "B) Metin okuma desteği", "C) Görsel düzen", "D) HTML yapılandırması"],
+          "correctAnswer": "B) Metin okuma desteği"
         },
         {
-          "question":
-            "Form etiketlerinde erişilebilirlik için hangi öznitelik kullanılmalıdır?",
-          "options": ["alt", "for", "name", "id"],
-          "correctAnswer": "for"
+          "question": "Hangi HTML etiketi, bir bağlantının amaçlandığı işlevi belirtir?",
+          "options": ["A) <a>", "B) <img>", "C) <button>", "D) <div>"],
+          "correctAnswer": "A) <a>"
         },
         {
-          "question": "Başlıklar (headings) neden önemlidir?",
-          "options": [
-            "Sayfa yapısını belirler",
-            "Metin boyutunu ayarlar",
-            "Sayfa yükleme süresini artırır",
-            "Görselleri tanımlar"
-          ],
-          "correctAnswer": "Sayfa yapısını belirler"
+          "question": "Ekran okuyucu kullanan kullanıcılar için hangi HTML etiketleri önemlidir?",
+          "options": ["A) <div> ve <span>", "B) <header> ve <footer>", "C) <img> ve <alt>", "D) <section> ve <article>"],
+          "correctAnswer": "C) <img> ve <alt>"
         },
         {
-          "question":
-            "Web içeriklerinin erişilebilirliği için hangi kısaltma kullanılır?",
-          "options": ["WCAG", "W3C", "HTML", "CSS"],
-          "correctAnswer": "WCAG"
+          "question": "Renk körü olan bir kullanıcı için hangi renk kombinasyonu önerilmez?",
+          "options": ["A) Kırmızı ve Yeşil", "B) Mavi ve Sarı", "C) Siyah ve Beyaz", "D) Mor ve Turuncu"],
+          "correctAnswer": "A) Kırmızı ve Yeşil"
         },
         {
-          "question": "Klavyeyle gezinme ne anlama gelir?",
-          "options": [
-            "Sadece klavye ile web sayfasında dolaşabilme",
-            "Fare kullanarak web sayfasında gezinme",
-            "Mobil cihazlarla uyumlu olma",
-            "Sayfa yükleme süresini iyileştirme"
-          ],
-          "correctAnswer": "Sadece klavye ile web sayfasında dolaşabilme"
+          "question": "Erişilebilir bir web formu için en önemli özellik nedir?",
+          "options": ["A) Estetik görünüm", "B) Hızlı yükleme süresi", "C) Etiketlerin doğru kullanımı", "D) Görsel hiyerarşi"],
+          "correctAnswer": "C) Etiketlerin doğru kullanımı"
         },
         {
-          "question": "Bir web sayfasında renk kontrastı neden önemlidir?",
-          "options": [
-            "Metinlerin okunabilirliğini artırır",
-            "Sayfa yükleme hızını artırır",
-            "Mobil uyumluluğu iyileştirir",
-            "SEO'yu optimize eder"
-          ],
-          "correctAnswer": "Metinlerin okunabilirliğini artırır"
+          "question": "Web sitelerinde alt yazı (caption) kullanımı neden önemlidir?",
+          "options": ["A) Yükleme süresini azaltır", "B) Mobil cihazlarda daha iyi görünüm sağlar", "C) İşitme engelli kullanıcılar için içerik erişimini artırır", "D) Görsel kalitesini artırır"],
+          "correctAnswer": "C) İşitme engelli kullanıcılar için içerik erişimini artırır"
         },
         {
-          "question":
-            "Bir web sayfasının 'skip to content' bağlantısı ne için kullanılır?",
-          "options": [
-            "Ana içeriğe hızlıca erişim sağlar",
-            "Sayfayı yeniler",
-            "Tarayıcı penceresini kapatır",
-            "İçeriği kaydeder"
-          ],
-          "correctAnswer": "Ana içeriğe hızlıca erişim sağlar"
+          "question": "Hangi ARIA (Accessible Rich Internet Applications) özelliği, bir öğenin erişilebilirliğini artırır?",
+          "options": ["A) aria-hidden", "B) aria-label", "C) aria-disabled", "D) aria-checked"],
+          "correctAnswer": "B) aria-label"
         },
         {
-          "question": "Ekran okuyucular için en iyi uygulama nedir?",
-          "options": [
-            "Anlamlı alt metinler kullanmak",
-            "Yüksek çözünürlüklü görseller eklemek",
-            "Animasyonları artırmak",
-            "Düşük kontrastlı renkler kullanmak"
-          ],
-          "correctAnswer": "Anlamlı alt metinler kullanmak"
+          "question": "Erişilebilirlik testleri yapmak için hangi araç kullanılabilir?",
+          "options": ["A) Photoshop", "B) Google Lighthouse", "C) Chrome DevTools", "D) Sublime Text"],
+          "correctAnswer": "B) Google Lighthouse"
         },
         {
-          "question": "Formlar neden etiketlerle birlikte kullanılmalıdır?",
-          "options": [
-            "Erişilebilirlik sağlar",
-            "Sayfa hızını artırır",
-            "Görselleri optimize eder",
-            "Mobil cihaz uyumluluğunu artırır"
-          ],
-          "correctAnswer": "Erişilebilirlik sağlar"
+          "question": "Erişilebilir bir web sitesi tasarlarken hangi yaklaşım en önemlidir?",
+          "options": ["A) Minimalist tasarım", "B) Renk doygunluğu", "C) Kullanıcı merkezli tasarım", "D) İnteraktif öğeler"],
+          "correctAnswer": "C) Kullanıcı merkezli tasarım"
         }
       ]
     }

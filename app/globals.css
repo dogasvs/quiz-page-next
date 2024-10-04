@@ -11,8 +11,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  /* background: var(--Light-Grey, #F4F6FA); */
-  padding-inline: 140px;
+  margin-inline: 140px;
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
 }
@@ -47,11 +46,6 @@ html {
   isolation: isolate;
   background-image: url(/dekor.svg);
   background-repeat: no-repeat;
-}
-
-.container {
-  max-width: 1440px;
-  padding-inline: 140px;
 }
 
 .switch {
@@ -268,4 +262,8 @@ body.dark {
     line-height: 28px;
     cursor: pointer;
   }
+
+  .submitBtn:hover {
+    background-color: rgb(211, 148, 250);
+}
 }
