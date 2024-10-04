@@ -1,4 +1,4 @@
-export default function REsults() {
+export default function Results() {
   return (
     <></>
   )
